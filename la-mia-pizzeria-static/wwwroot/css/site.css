@@ -1,18 +1,21 @@
-html {
-  font-size: 14px;
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+a{
+    text-decoration: none;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+li{
+    list-style: none;
 }
 
-body {
-  margin-bottom: 60px;
+ms_cointainer{
+    max-width: 1320px;
+}
+
+img{
+    object-fit:cover;
 }
